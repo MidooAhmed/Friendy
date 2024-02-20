@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendy</title>
+    <script src="https://kit.fontawesome.com/d61cfd01ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div class="main" >
+        <div id="img" class="img">
+            <img src="wwww.jpg" alt="">
+        </div>
+
+        <div id="SignUp" class="mainText">
+            <header>
+                <div class="logo">
+                    <h1><p>F</p> Friendy</h1>
+                </div>
+                <p>Don`t have an account?<a onclick="showCreateAcc()" href="creat.html">Sign up</a></p>
+            </header>
+            <div class="content">
+
+                <div class="text">
+                    <h1>Welcom</h1>
+                    <h3>Login into your account</h3>
+                    <div class="links">
+                        <a href="post.html">FaceBook</a>
+                        <a href="creat.html">Google</a>
+                    </div>
+                    <p>Or continue with</p>
+                </div>
+                
+                    
+                    <form action="">
+                        <input class="email-input" type="email" placeholder="Enter Your Email" required>
+                        <input class="password-input"  type="password" placeholder="Enter Your password" required>
+                        
+                        <div class="remember">
+                            <p ><label for="toggle" class="toggle-label">
+                                <input class="circle" id="toggle" name="toggle" type="checkbox" />
+                              </label>
+                               
+                               <span id="rememberText" onclick="toggleCheckbox()">Remember Me</span>
+                            </p>
+                            <a href="#">Recover password</a>
+                        </div>
+                        
+                    <a onclick="check()" href="creat.html">
+                        <input class="log-in"  type="submit" value ="LOG IN">
+                    </a>    
+                    
+                    </form>
+
+                   
+                    
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="main.js"></script>
+</body>
+</html>
